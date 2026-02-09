@@ -18,6 +18,7 @@ const Hw = () => {
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQWp_9I_yP7D5fMedoAE8MZF2zEi-U-6oJg&s"
         alt="У всі тяжкі"
       />
+<p className="welcome-text">Ласкаво просимо до нашого сайту!</p>
 
       <p>
         <a href={favoriteSite.url} target="_blank" rel="noreferrer">
