@@ -8,30 +8,22 @@ const Hw = () => {
     url: "https://edu.goiteens.com/homepage",
   };
 
-  const num1 = 5;
-  const num2 = 10;
-  const sum = num1 + num2;
-
   const colors = ["Червоний", "Синій", "Зелений"];
 
   return (
     <div className="card">
       <h1>{name}</h1>
-<p>Ласкаво просимо до нашого сайту!</p>
-      
+
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQWp_9I_yP7D5fMedoAE8MZF2zEi-U-6oJg&s"
         alt="У всі тяжкі"
       />
 
       <p>
-        Улюблений сайт:{" "}
         <a href={favoriteSite.url} target="_blank" rel="noreferrer">
           {favoriteSite.siteName}
         </a>
       </p>
-
-      <p className="sum">Сума чисел: {sum}</p>
 
       <ul>
         {colors.map((color, index) => (
