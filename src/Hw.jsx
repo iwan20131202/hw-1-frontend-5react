@@ -1,4 +1,3 @@
-import "./Hw.css";
 
 const Hw = () => {
   const name = "Ivan";
